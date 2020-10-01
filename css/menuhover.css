@@ -1,0 +1,49 @@
+/*Código hover del menú principal*/
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left; /*ordena los botones en forma horizontal*/
+	-webkit-transition: height .4s;/*efecto retartado de la altura*/
+}
+
+/*Color de fondo de cada botón*/
+div#uno{background-color: rgb(0,100,0);}
+div#dos{background-color: rgb(0,128,0);}
+div#tres{background-color: rgb(208,101,3);}
+div#cuatro{background-color: rgb(233,147,26);}
+div#cinco{background-color: rgb(22,145,190);}
+div#seis{background-color: rgb(22,107,162);}
+
+/*Decoración de la imagen*/
+img.icon{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:40px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+/*Decoración del texto*/
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+/*Efecto de aumentar altura del cuadro*/
+div.contenedor:hover{height:250px;}
+/*Efecto para el texto, baja el texto*/
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+/*Efecto de desplegar sombra alrededor del circulo*/
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}

@@ -1,0 +1,6 @@
+<!--Código Font Awesome-->
+<script src="https://kit.fontawesome.com/f44fe8308b.js" crossorigin="anonymous"></script>
+
+
+<!--Código Youtube-->
+<iframe width="80%" height="100%" src="https://www.youtube.com/embed/FNuqKVG781I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
